@@ -3,4 +3,4 @@ Wizardry Proving Grounds v3.0 - Editing and Compiling SYSTEM.STARTUP - Apple II 
 
 <img src="resources/boot-splash-01.png" alt="Boot Splash 01"/>
 
-<img src="resources/boot-splash-02.png" alt="Boot Spash 02"/>
+<img src="resources/boot-splash-02.png" alt="Boot Splash 02"/>
