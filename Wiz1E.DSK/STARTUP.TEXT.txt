@@ -1,3 +1,6 @@
+(* VERSION DATE  : 23 DEC 2022 *)
+(* FIX REFERENCES: ST002 *)
+
 (*$S+*) 
 (*$L PRINTER: *)
 (* SWITCH "$S+" PRECEDES $L SWITCH *)
@@ -173,7 +176,7 @@ PROGRAM WIZBOOT;
               GOODCOPY := GOODCOPY AND (ABS((CPTEMP - SYNCH[ SAVEI - 10]))
                                         < 35)
             END;
-          IF GOODCOPY THEN
+          (* IF GOODCOPY THEN *)
             EXIT( CHKCOPY)
         END;
       HALT
