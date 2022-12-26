@@ -176,7 +176,7 @@ PROGRAM WIZBOOT;
               GOODCOPY := GOODCOPY AND (ABS((CPTEMP - SYNCH[ SAVEI - 10]))
                                         < 35)
             END;
-          (* ST001 REMARK OUT/BYPASS COPY PROTECTION CHECK *)
+          (* ST002 REMARK OUT/BYPASS COPY PROTECTION CHECK *)
           (* IF GOODCOPY THEN *)
             EXIT( CHKCOPY)
         END;
