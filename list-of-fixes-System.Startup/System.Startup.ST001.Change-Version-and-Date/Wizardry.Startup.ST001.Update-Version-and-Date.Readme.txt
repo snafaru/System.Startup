@@ -5,17 +5,17 @@ From Thomas William Ewer's reverse engineered Pascal source code (and assembler 
 
 
 Bug/Issue #:	ST001 - Version and Date
-======================================
+========================================
 
 Status:		Fixed. Recompiled. Verified.
 
-Date of change:	23-Dec-2022
+Date of change:	25-Dec-2022
 
 Contributor:	E. Labelle
 
 The Issue:	To track which version and release date we are at.
 
-The Fix:	Update the version and date text.	
+The Fix:	Change the version and date text displayed as needed.	
 
 Source Disk:	Wiz1E.dsk
 
@@ -25,11 +25,12 @@ Segment:	PROCEDURE OPTIONS;  (* P070301 *)
 
 Code From:
 
-WRITE( '  VERSION 2.1 OF 22-JAN-82  SER:');
+    WRITE( '  VERSION 2.1 OF 22-JAN-82  SER:');
 
 Code To:	New text output on boot splash screen. 
 
-WRITE( '  VERSION 3.0 OF 23-DEC-22  SER:');
+    (* ST001 CHANGE VERSION AND DATE DISPLAY AS NEEDED *)
+    WRITE( '  VERSION 3.0 OF 25-DEC-22  SER:');
 
 Final Compiled File Name:	SYSTEM.STARTUP
 
