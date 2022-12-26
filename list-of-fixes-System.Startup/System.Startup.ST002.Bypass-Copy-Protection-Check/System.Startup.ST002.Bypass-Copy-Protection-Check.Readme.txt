@@ -29,7 +29,7 @@ Code From:
 
 Code To:	Putting the code between "(* " and " *)" makes it a remark and thus it is skipped, therefore bypassing the copy protection check. 
 
-          (* ST001 REMARK OUT/BYPASS COPY PROTECTION CHECK *)
+          (* ST002 REMARK OUT/BYPASS COPY PROTECTION CHECK *)
           (* IF GOODCOPY THEN *)
 
 Final Compiled File Name:	SYSTEM.STARTUP
