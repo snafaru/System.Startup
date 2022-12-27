@@ -9,7 +9,7 @@ Bug/Issue #:	ST001 - Version and Date
 
 Status:		Fixed. Recompiled. Verified.
 
-Date of change:	25-Dec-2022
+Date of change:	26-Dec-2022
 
 Contributor:	E. Labelle
 
@@ -30,7 +30,7 @@ Code From:
 Code To:	New text output on boot splash screen. 
 
     (* ST001 CHANGE VERSION AND DATE DISPLAY AS NEEDED *)
-    WRITE( '  VERSION 3.0 OF 25-DEC-22  SER:');
+    WRITE( '  VERSION 3.0 OF 26-DEC-22  SER:');
 
 Final Compiled File Name:	SYSTEM.STARTUP
 
