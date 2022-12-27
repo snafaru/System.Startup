@@ -4,8 +4,8 @@ Wizardry Proving Grounds v3.0 - Boot Side Code Changes
 From Thomas William Ewer's reverse engineered Pascal source code (and assembler code) of Wizardry it is now possible to fix the game code itself.
 
 
-Bug/Issue #:	ST002 - Copy Protection Check
-=============================================
+Bug/Issue #:	ST002 - Bypass Copy Protection Check
+====================================================
 
 Status:		Fixed. Recompiled. Verified.
 
@@ -29,7 +29,7 @@ Code From:
 
 Code To:	Putting the code between "(* " and " *)" makes it a remark and thus it is skipped, therefore bypassing the copy protection check. 
 
-          (* ST002 REMARK OUT/BYPASS COPY PROTECTION CHECK *)
+          (* ST001 REMARK OUT/BYPASS COPY PROTECTION CHECK *)
           (* IF GOODCOPY THEN *)
 
 Final Compiled File Name:	SYSTEM.STARTUP
