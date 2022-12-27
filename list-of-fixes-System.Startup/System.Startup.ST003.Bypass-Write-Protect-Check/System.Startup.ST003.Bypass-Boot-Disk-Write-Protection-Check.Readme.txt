@@ -4,8 +4,8 @@ Wizardry Proving Grounds v3.0 - Boot Side Code Changes
 From Thomas William Ewer's reverse engineered Pascal source code (and assembler code) of Wizardry it is now possible to fix the game code itself.
 
 
-Bug/Issue #:	ST003 - Copy Protection Check
-=============================================
+Bug/Issue #:	ST003 - Boot Disk Write Protection Check
+========================================================
 
 Status:		Fixed. Recompiled. Verified.
 
